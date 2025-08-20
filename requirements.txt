@@ -1,0 +1,6 @@
+# Core dependencies
+yfinance>=0.2.43
+pandas>=2.2.0
+
+# Optional: useful for notebooks or extended data handling
+numpy>=1.26.0
