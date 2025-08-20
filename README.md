@@ -24,22 +24,26 @@ It outputs a **Markdown report** and a **CSV** of key metrics, checks, and a qui
 ```bash
 git clone https://github.com/YOUR_USERNAME/money_maker.git
 cd money_maker
+```
 
 ### 2. Create and activate a virtual environment (Recommended)
 ```bash
 python3 -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
+```
 
 ### 3. Install requirements
 ```bash
 pip install -r requirements.txt
+```
 
 ## 🛠 Usage
 ### Offline mode (recommended to start)
 Edit `sample_inputs.json` with your company’s data, then run:
 ```bash
 python value_sheet.py --input sample_inputs.json --out report
+```
 
 OUTPUTS:
 - `report.md` ==> nicely formatted worksheet
@@ -49,6 +53,7 @@ OUTPUTS:
 If you have internet and `yfinance` installed: 
 ```bash
 python value_sheet.py --ticker AAPL --fetch --roe 0.22 --de 0.5 --out apple
+```
 
 ## 🧩 Files
 - `value_sheet.py` → main script
