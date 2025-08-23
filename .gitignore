@@ -41,3 +41,6 @@ htmlcov/
 # Misc
 *.swp
 *~
+
+# Caches
+.cache/

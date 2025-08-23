@@ -1,0 +1,22 @@
+metric,value
+company_name,Caterpillar Inc.
+ticker,CAT
+industry,
+market_cap,204102245930.0
+revenue_ttm,64809000000.0
+eps_ttm,22.05
+roe,-5.927472527472528
+debt_to_equity,-11.068798057466612
+dividend_yield,
+payout_ratio,0.24527252502780866
+price,435.67
+pe,19.75827664399093
+forward_pe,
+pb,
+ps,3.1492886162415714
+eps_normalized,22.05
+growth_rate,0.17068741882311755
+graham_intrinsic,1034.1721687109434
+margin_of_safety,0.5787258512834993
+fcf_cagr,0.17068741882311755
+decision,Consider
